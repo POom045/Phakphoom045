@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <title>ทะเลไทยน่าเที่ยว</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+ body {
+      background: linear-gradient(to bottom right, #b3e5fc, #e1f5fe);
+    }
+    .beach-card {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    img {
+      border-radius: 10px;
+    }
+    .jumbotron-custom {
+      background: linear-gradient(135deg, #0288d1, #26c6da);
+      color: white;
+      border-radius: 15px;
+      padding: 3rem;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <!-- Jumbotron -->
+  <div class="jumbotron-custom text-center">
+    <h1><span class="glyphicon glyphicon-flag"></span> ทะเลไทยน่าเที่ยว</h1>
+    <p>สถานที่ท่องเที่ยวทางทะเลที่สวยงามของประเทศไทย เหมาะสำหรับการพักผ่อน และผจญภัย</p>
+  </div>
+
+  <!-- ทะเล 1: เกาะพีพี -->
+  <div class="row beach-card">
+    <div class="col-md-4">
+      <img src="https://media.timeout.com/images/105658195/750/422/image.jpg" alt="เกาะพีพี" class="img-fluid w-100">
+    </div>
+    <div class="col-md-8">
+      <h3>เกาะพีพี (จังหวัดกระบี่)</h3>
+      <p>
+        เกาะพีพีเป็นหนึ่งในสถานที่ท่องเที่ยวยอดนิยมของไทย ด้วยน้ำทะเลใส หาดทรายขาว และภูเขาหินปูนอันงดงาม
+        มีจุดดำน้ำตื้นและน้ำลึกมากมาย รวมถึงอ่าวมาหยาอันเลื่องชื่อ
+      </p>
+    </div>
+  </div>
+
+  <!-- ทะเล 2: หาดไร่เลย์ -->
+  <div class="row beach-card">
+    <div class="col-md-4">
+      <img src="https://s359.thaicdn.net//pagebuilder/2de661e3-8f91-417a-bd1f-44305da28f9f.jpg" alt="หาดไร่เลย์" class="img-fluid w-100">
+    </div>
+    <div class="col-md-8">
+      <h3>หาดไร่เลย์ (จังหวัดกระบี่)</h3>
+      <p>
+        หาดไร่เลย์ถูกล้อมรอบด้วยหน้าผาหินปูนสูงชัน การเดินทางต้องใช้เรือเท่านั้น
+        เหมาะกับนักปีนเขาและผู้ต้องการหลีกหนีความวุ่นวาย ทะเลที่นี่สงบงามและมีบรรยากาศโรแมนติก
+      </p>
+    </div>
+  </div>
+
+  <!-- ทะเล 3: เกาะหลีเป๊ะ -->
+  <div class="row beach-card">
+    <div class="col-md-4">
+      <img src="https://f.tpkcdn.com/review-source/b4ca67cf-43bf-b8aa-6032-59365a6c16e7.jpg" alt="เกาะหลีเป๊ะ" class="img-fluid w-100">
+    </div>
+    <div class="col-md-8">
+      <h3>เกาะหลีเป๊ะ (จังหวัดสตูล)</h3>
+      <p>
+        เกาะหลีเป๊ะตั้งอยู่ในทะเลอันดามัน ได้ชื่อว่า "มัลดีฟส์เมืองไทย" เพราะน้ำทะเลใสสีฟ้า
+        มีกิจกรรมดำน้ำดูปะการังที่อุดมสมบูรณ์ เหมาะสำหรับผู้ที่รักธรรมชาติและความสงบ
+      </p>
+    </div>
+  </div>
+
+  <!-- ทะเล 4: หาดทรายแก้ว -->
+  <div class="row beach-card">
+    <div class="col-md-4">
+      <img src="https://kingpatcharee.files.wordpress.com/2013/02/4hadsainkaew.jpg" alt="หาดทรายแก้ว" class="img-fluid w-100">
+    </div>
+    <div class="col-md-8">
+      <h3>หาดทรายแก้ว (จังหวัดชลบุรี)</h3>
+      <p>
+        หาดทรายแก้วอยู่ในเขตทหารเรือ สะอาด ปลอดภัย เหมาะสำหรับพักผ่อนแบบครอบครัว
+        น้ำใส ทรายขาว เหมาะกับเล่นน้ำและปิคนิคริมทะเล
+      </p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="row bg-white text-center py-4">
+    <div class="col-md-12">
+      <nav aria-label="Page navigation">
+       <ul class="pagination justify-content-center pagination-lg">
+          <li class="page-item">
+            <a class="page-link" href="Step2.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="Step2.html">1</a></li> <!-- Row 8: Pagination แค่ 2 หน้า -->
+          <li class="page-item"><a class="page-link" href="Step3.html">2</a></li>
+           <li class="page-item"><a class="page-link" href="Step4.html">3</a></li>
+           <li class="page-item"><a class="page-link" href="Step5.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="Step6.html">5</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="Step5.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+          <ul class="pager">
+          <li><a href="Step2.html">Previous</a> </li> <!-- pager กลับไปละเดินหน้าได้ -->
+          <li><a href="Step4.html">Next</a></li>
+        </ul>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
